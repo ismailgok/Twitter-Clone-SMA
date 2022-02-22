@@ -1,0 +1,672 @@
+* {
+    margin: 0;
+    padding: 0;
+    right: 0;
+    left: 0;
+    text-decoration: none;
+    
+}
+
+.twittericon {
+    padding: 10px;
+}
+
+    .twittericon a i {
+        color: #d9d9d9;
+        font-size: 30px;
+        margin-top: 5px;
+    }
+
+.l {
+    overflow: hidden;
+    min-height: 100vh;
+    position: relative;
+}
+
+.ls {
+    border-right: 1px solid rgb(47, 51, 54);
+}
+
+.twittermenu .ultwitter-menu li {
+    list-style: none;
+    border-radius: 9999px;
+}
+
+    .twittermenu .ultwitter-menu li:hover {
+        background-color: #3a3a3a;
+    }
+
+    .twittermenu .ultwitter-menu li i {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: #d9d9d9;
+    }
+
+    .twittermenu .ultwitter-menu li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #d9d9d9;
+        margin-left: 15px;
+        font-weight: bold;
+    }
+
+.buttontweet {
+    width: 200px;
+    height: 52px;
+    margin-top: 20px;
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 9999px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+}
+
+.twittermenu .ultwitter-menu .home {
+    width: 160px;
+    padding: 10px;
+}
+
+.twittermenu .ultwitter-menu .explore {
+    width: 130px;
+    padding: 10px;
+}
+
+.twittermenu .ultwitter-menu .notification {
+    width: 170px;
+    padding: 10px;
+}
+
+.twittermenu .ultwitter-menu .message {
+    width: 140px;
+    padding: 10px;
+}
+
+.twittermenu .ultwitter-menu .location {
+    width: 180px;
+    padding: 10px;
+}
+
+.twittermenu .ultwitter-menu .liste {
+    width: 140px;
+    padding: 10px;
+}
+
+.twittermenu .ultwitter-menu .profile {
+    width: 120px;
+    padding: 10px;
+}
+
+.twittermenu .ultwitter-menu .more {
+    width: 170px;
+    padding: 10px;
+}
+
+.lsprofile {
+    width: 80%;
+    max-width: 270px;
+    min-width: 270px;
+    position: absolute;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    bottom: 15px;
+    border-radius: 9999px;
+    justify-content: flex-start;
+    align-items: center;
+    transform: translateX(5%);
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+    .lsprofile:hover {
+        background: #3a3a3a;
+    }
+
+    .lsprofile img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .lsprofile .lsidename {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+        .lsprofile .lsidename a {
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-bottom: 4px;
+            margin-left: 0.78rem;
+            color: #D9D9D9;
+            font-weight: 400;
+            min-width: 90px;
+        }
+
+        .lsprofile .lsidename span {
+            font-size: 15px;
+            margin-left: 0.78rem;
+            font-weight: bold;
+            color: #6E767D;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+
+.threedot {
+    margin-left: auto;
+    min-width: 20px;
+    position: relative;
+}
+
+    .threedot i {
+        margin-top: -8px;
+        position: absolute;
+        right: 0;
+    }
+
+.dropdown {
+    height: 150px;
+    position: absolute;
+    bottom: 100px !important;
+    width: 240px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: black;
+    border-radius: 15px;
+    margin: 0px 7px 0px 5px;
+    box-shadow: 0px 0px 10px rgba(218, 216, 216, 0.5)
+}
+
+    .dropdown .lsprofile {
+        top: 0;
+        width: 90% !important;
+        height: 80px;
+        border-radius: 0 !important;
+        position: relative;
+        padding-bottom: 20px;
+    }
+
+        .dropdown .lsprofile .threedot {
+            margin-right: auto;
+            right: 10px;
+            position: absolute;
+        }
+
+        .dropdown .lsprofile:hover {
+            background: none;
+        }
+
+.dropdown {
+    display: none;
+}
+
+    .dropdown .drop-menu {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 85px;
+    }
+
+.drop-menu li {
+    list-style-type: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+    .drop-menu li:hover {
+        background: #4a4a4a;
+    }
+
+    .drop-menu li a {
+        font-size: 0.95rem;
+        text-decoration: none;
+        color: #D9D9D9;
+    }
+
+.col-lg-8 .row .cent {
+    /* border-right: 1px solid rgb(47, 51, 54); */
+    position: relative;
+}
+
+.search {
+    max-width: 270px;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 999px;
+}
+
+    .search input {
+        height: 34px;
+        width: 348px;
+        background-color: #212522;
+        color: #fff;
+        padding: 0 10px;
+        outline: none;
+        border: none;
+    }
+
+        .search input::placeholder {
+            color: rgba(255, 255, 255, .6);
+        }
+
+    .search button {
+        width: 32px;
+        height: 34px;
+        background-color: #212522;
+        color: #fff;
+        cursor: pointer;
+        font-size: 13px;
+        outline: none;
+        border: none;
+    }
+
+        .search button:hover {
+            color: #316aff;
+        }
+
+
+
+.tweetinterest {
+    overflow: hidden;
+    max-width: 270px;
+    border-radius: 15px;
+    background: #3a3a3a;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .tweetinterest .top h6 {
+        height: 38px;
+        color: #D9D9D9;
+        font-size: 15px;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .tweetinterest .top i {
+        font-size: 15px;
+        margin-left: 7px;
+    }
+
+.toptrend li {
+    list-style: none;
+}
+
+    .toptrend li:hover {
+        background: #4a4a4a;
+    }
+
+    .toptrend li .tr {
+        margin-left: 20px;
+    }
+
+        .toptrend li .tr a {
+            text-decoration: none;
+            color: #D9D9D9;
+            font-size: 15px;
+        }
+
+    .toptrend li .tweetsec {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .toptrend li .tweetsec a {
+            text-decoration: none;
+            color: #D9D9D9;
+            font-size: 15px;
+        }
+
+
+.toptrend .endmore {
+    border-radius: 999px;
+    height: 30px;
+}
+
+.toptrend li .more {
+    margin-left: 20px;
+}
+
+    .toptrend li .more a {
+        text-decoration: none;
+        color: #1D9BF0;
+        font-size: 15px;
+    }
+
+.whofollow {
+    overflow: hidden;
+    max-width: 270px;
+    border-radius: 15px;
+    background: #3a3a3a;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .whofollow .tops {
+        margin-top: 10px;
+    }
+
+    .whofollow h6 {
+        height: 28px;
+        color: #D9D9D9;
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+.topfollow li {
+    list-style: none;
+}
+
+    .topfollow li:hover {
+        background: #4a4a4a;
+    }
+
+    .topfollow li .topprofie {
+        display: flex;
+        flex-direction: row;
+    }
+
+        .topfollow li .topprofie img {
+            margin-left: 20px;
+            height: 48px;
+            width: 48px;
+            border-radius: 48%;
+        }
+
+        .topfollow li .topprofie .profilesec {
+            display: flex;
+            flex-direction: column;
+            margin-left: 5px;
+        }
+
+            .topfollow li .topprofie .profilesec a {
+                font-size: 15px;
+                text-decoration: none;
+                color: #D9D9D9;
+                font-weight: bold;
+            }
+
+            .topfollow li .topprofie .profilesec span {
+                font-size: 15px;
+                text-decoration: none;
+                color: #D9D9D9;
+            }
+
+        .topfollow li .topprofie .followbutton {
+            margin-left: 15px;
+            padding: 5px 15px;
+            background-color: #fff;
+            border-radius: 9999px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .topfollow li .topprofie .followbutton a {
+                color: #0f1419;
+                text-decoration: none;
+                height: auto;
+                width: auto;
+                font-size: 14px;
+                font-weight: bold;
+                text-align: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+.topfollow .endmore {
+    border-radius: 999px;
+    height: 30px;
+}
+
+.topfollow li .more a {
+    text-decoration: none;
+    color: #1D9BF0;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.footer {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+    .footer .policy a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #D9D9D9;
+    }
+
+    .footer .policy2 a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #D9D9D9;
+    }
+
+    .footer .policy3 a, span {
+        text-decoration: none;
+        font-size: 12px;
+        color: #D9D9D9;
+    }
+
+.fot {
+    border-left: 1px solid rgb(47, 51, 54);
+    min-height: 100vh;
+}
+
+.search1 {
+    
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+    .search1 input {
+        height: 44px;
+        width: 600px;
+        background-color: #212522;
+        border-radius: 999px;
+        color: #fff;
+        padding: 0 10px;
+        outline: none;
+        border: none;
+        @include placeholder {
+            font-family: 'FontAwesome', $gotham;
+        }
+    }
+
+        .search1 input::placeholder {
+            color: rgba(255, 255, 255, .6);
+            margin-left: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+    .search1 button {
+        width: 32px;
+        height: 44px;
+        border-radius: 999px;
+        background-color: #212522;
+        color: #fff;
+        cursor: pointer;
+        font-size: 13px;
+        outline: none;
+        border: none;
+    }
+
+        .search1 button:hover {
+            color: #316aff;
+        }
+
+.explorebigimg {
+    margin-top: 9px;
+    
+}
+
+.explorebigimg img {
+    margin-left: 3px;
+    height: 336px;
+    width: 688px;
+}
+
+.tweetinterest1 {
+    overflow: hidden;
+    border-block-start: 1px solid rgb(47, 51, 54);
+    border-block-end: 1px solid rgb(47, 51, 54);
+    background: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .tweetinterest1 .top h6 {
+        height: 38px;
+        color: #D9D9D9;
+        font-size: 24px;
+        font-weight:400;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+
+.toptrend1 li {
+    list-style: none;
+}
+
+    .toptrend1 li:hover {
+        background: #4a4a4a;
+    }
+
+    .toptrend1 li .tr {
+        margin-left: 20px;
+    }
+
+        .toptrend1 li .tr a {
+            text-decoration: none;
+            color: #D9D9D9;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+    .toptrend1 li .tweetsec {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .toptrend1 li .tweetsec a {
+            text-decoration: none;
+            color: #D9D9D9;
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+
+.toptrend1 .endmore {
+    display:flex;
+    align-items: center;
+    height: 30px;
+}
+
+.toptrend1 li .more {
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+    .toptrend1 li .more a {
+        text-decoration: none;
+        color: #1D9BF0;
+        font-size: 24px;
+        font-weight: 800;
+
+    }
+
+.cents {
+    overflow: auto;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    left: 0;
+    text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+.explore1 {
+    border-block-end: 1px solid rgb(47, 51, 54);
+    
+}
+
+
+
+.searchbg .list li  {
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    justify-content:space-between;
+    align-items:center;
+    
+    
+}
+
+
+    .searchbg .list li a:hover {
+        background: #3a3a3a;
+    }
+
+    .searchbg .list li a {
+        text-decoration: none;
+        color: #D9D9D9;
+        padding: 10px;
+        font-size: 15px;
+    }

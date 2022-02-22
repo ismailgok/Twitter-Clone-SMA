@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="scss/styles.css">
+	<script src="https://unpkg.com/feather-icons"></script>
+	<meta name="theme-color" content="#7952b3">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-white">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img src="img/logo.png" alt=""> Silicon Social
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav mx-auto navbar-nav-center">
+					<li class="nav-item"><a class="nav-link" href="index.html"><i data-feather="home"></i> Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="explore.html"> <i data-feather="globe"></i> Explore</a></li>
+					<li class="nav-item"><a class="nav-link active" href="bookmarks.html">Bookmarks</a> </li>
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<img src="img/profile.jpg" class="img-thumbnail rounded-circle"> Cem
+						</a>
+						<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+							<li><a class="dropdown-item" href="#">Profile</a></li>
+							<li><a class="dropdown-item" href="#">Settings</a></li>
+							<li><a class="dropdown-item" href="#">Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-md-9">
+				<div class="card mt-2 messages">
+					<div class="card-body">
+						<img src="img/user-1.jpg" class="img-thumbnail rounded-circle float-start me-2" style="height: 40px;">
+						<h6 class="fw-bold my-0">Alex</h6>
+						<p class="card-date">24 August at 20:43</p>
+
+						<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					</div>
+					<img src="img/feature-1.jpg" class="card-img-bottom rounded-0" alt="...">
+					<div class="card-footer">
+						<ul class="nav nav-pills nav-fill">
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<i data-feather="message-circle"></i> Comment
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<i data-feather="corner-down-left"></i> Retweet
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<i data-feather="heart"></i> Like
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									<i data-feather="bookmark"></i> Save
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="card-footer">
+						<img src="img/profile.jpg" class="img-thumbnail rounded-circle float-start" style="height: 64px;">
+						<textarea type="text" class="form-control float-end" placeholder="Say something" style="width: 92%"></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card">
+					<div class="card-body">
+						<input type="text" class="form-control" placeholder="Search..." />
+					</div>
+				</div>
+
+				<div class="card mt-3">
+					<div class="card-header">
+						Trends
+					</div>
+					<div class="card-body">
+						<a href="#" class="text-decoration-none text-dark d-block mb-2">
+							<h6 class="card-title mb-0 fw-bold">#hashtag</h6>
+							<p class="card-text">10k message</p>
+						</a>
+						<a href="#" class="text-decoration-none text-dark d-block mb-2">
+							<h6 class="card-title mb-0 fw-bold">#hashtag</h6>
+							<p class="card-text">10k message</p>
+						</a>
+						<a href="#" class="text-decoration-none text-dark d-block mb-2">
+							<h6 class="card-title mb-0 fw-bold">#hashtag</h6>
+							<p class="card-text">10k message</p>
+						</a>
+						<a href="#" class="text-decoration-none text-dark d-block mb-2">
+							<h6 class="card-title mb-0 fw-bold">#hashtag</h6>
+							<p class="card-text">10k message</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="py-5 mt-3 border-top bg-white">
+		<div class="container">
+			<footer class="row row-cols-5">
+				<div class="col">
+					<a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none footer-brand">
+						<img src="img/logo.png" alt="" class="me-2"> Silicon Social
+					</a>
+					<p class="text-muted">© 2021</p>
+				</div>
+				<div class="col">
+				</div>
+				<div class="col">
+					<h5>Menu</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+						<li class="nav-item mb-2"><a href="explore.html" class="nav-link p-0 text-muted">Explore</a></li>
+						<li class="nav-item mb-2"><a href="bookmarks.html" class="nav-link p-0 text-muted">Bookmarks</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h5>Hashtags</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">#hashtag</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">#hashtag</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">#hashtag</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">#hashtag</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">#hashtag</a></li>
+					</ul>
+				</div>
+
+				<div class="col">
+					<h5>Users</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">@username</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">@username</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">@username</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">@username</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">@username</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script>
+		feather.replace()
+	</script>
+</body>
+</html>
