@@ -1,4 +1,4 @@
-# ASP.NET MVC Twitter Clone Projesi
+# .NET CORE MVC Twitter Clone Projesi
 
 
 ## Giriş Sayfası
@@ -7,7 +7,7 @@
 ## Anasayfa
 ![](https://cdn.discordapp.com/attachments/916029512884563999/943633131393650698/unknown.png)
 
-## Keşfet Sayafası
+## Keşfet Sayfası
 ![](https://cdn.discordapp.com/attachments/916029512884563999/943633237660532746/unknown.png)
 
 ## Profil Sayfası
