@@ -8,6 +8,7 @@
 ## Anasayfa
 ![](https://cdn.discordapp.com/attachments/916029512884563999/943633131393650698/unknown.png)
 
+
 ## Keşfet Sayfası
 ![](https://cdn.discordapp.com/attachments/916029512884563999/943633237660532746/unknown.png)
 
